@@ -1,0 +1,28 @@
+# Maven build output
+target/
+backend/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Database data & logs
+postgres_data/
+*.log
+
+# IDE & Editor files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
